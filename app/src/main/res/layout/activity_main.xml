@@ -43,4 +43,15 @@
         android:text="Find Places"
         android:textSize="20sp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:background="@color/colorTextIcons"
+        android:layout_above="@+id/findPlacesButton"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Enter Zip Code"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
