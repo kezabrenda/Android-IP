@@ -32,7 +32,7 @@
         android:textSize="60sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/findPlacesButton"
         android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
