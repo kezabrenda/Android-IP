@@ -16,31 +16,24 @@
         android:scaleType="centerCrop"
         android:src="@drawable/background" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="228dp"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="86dp"
-        android:fontFamily="@font/aladin"
-        android:text="LocateME!"
-        android:textSize="60sp" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="118dp"
+        android:text="CLEANING" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="410dp"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="65dp"
-        android:text="Find Places"
-        android:textSize="20sp" />
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="122dp"
+        android:text="MOBILE AGENT" />
 
 </RelativeLayout>
