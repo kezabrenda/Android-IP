@@ -9,8 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyIndependentProject">
-        <activity android:name=".CleaningActivity" />
-        <activity android:name=".LocateMeActivity" />
+        <activity android:name=".CleaningActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myindependentproject.MainActivity">
+            </meta-data>
+        </activity>
+        <activity android:name=".LocateMeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myindependentproject.MainActivity">
+            </meta-data>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
