@@ -19,8 +19,9 @@ public class CleaningActivity extends AppCompatActivity {
     @BindView(R.id.locationTextView) private TextView mLocationTextView;
 
     private String[] cleaningPlaces = new String[] {"Shalom Dry cleaner", "Simply Clean",
-            "Crystal Clean", "Squeacky Clear", "Le Neat", "Clean Car",
-            "PROPRE", "Miss Cleanliness", "Freshies"};
+             "Squeacky Clear", "Le Neat", "PROPRE", "Freshies"};
+    private String[] cleaningSections = new String[] {"adult clothes", "pet items", "children's clothes",
+            "house items", "bikes", "cars" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class CleaningActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cleaning);
         ButterKnife.bind(this);
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, cleaningPlaces);
+        CleaningArrayAdapter adapter = new CleaningArrayAdapter(this, android.R.layout.simple_list_item_1, cleaningPlaces, cleaningSections);
         mListView.setAdapter(adapter);
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
