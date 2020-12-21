@@ -1,7 +1,6 @@
 package com.example.myindependentproject;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -46,8 +45,4 @@ public class CleaningActivity extends AppCompatActivity {
         mLocationTextView.setText("Here are all the cleaning places near: " + location);
 
     }
-
-    FragmentManager fm = getSupportFragmentManager();
-    CleaningOtherDialogFragment moodDialogFragment = new CleaningOtherDialogFragment ();
-    cleaningOtherDialogFragment.show(fm, "Sample Fragment");
 }
