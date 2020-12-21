@@ -18,7 +18,7 @@ public class CleaningActivity extends AppCompatActivity {
     @BindView(R.id.listView) private ListView mListView;
     @BindView(R.id.locationTextView) private TextView mLocationTextView;
 
-    private String[] cleaningPlaces = new String[] {"Shalom Dry cleaner", "Simply Clean",
+    private String[] cleaningPlaces = new String[] {"Shalom Dry Cleaner", "Simply Clean",
              "Squeacky Clear", "Le Neat", "PROPRE", "Freshies"};
     private String[] cleaningSections = new String[] {"adult clothes", "pet items", "children's clothes",
             "house items", "bikes", "cars" };
